@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run App') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\durva\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
             }
         }
     }
